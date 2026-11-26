@@ -28,6 +28,7 @@ public class LegosSiftModBlocks {
 	public static final DeferredBlock<Block> ICHOR;
 	public static final DeferredBlock<Block> SIFT_SAND;
 	public static final DeferredBlock<Block> SAND_COVERED_SIFT_STONE;
+	public static final DeferredBlock<Block> SOUL_BLOCK;
 	static {
 		DARK_SIFT_GRASS_BLOCK = register("dark_sift_grass_block", DarkSiftGrassBlockBlock::new);
 		LIGHT_SIFT_GRASS_BLOCK = register("light_sift_grass_block", LightSiftGrassBlockBlock::new);
@@ -41,6 +42,7 @@ public class LegosSiftModBlocks {
 		ICHOR = register("ichor", IchorBlock::new);
 		SIFT_SAND = register("sift_sand", SiftSandBlock::new);
 		SAND_COVERED_SIFT_STONE = register("sand_covered_sift_stone", SandCoveredSiftStoneBlock::new);
+		SOUL_BLOCK = register("soul_block", SoulBlockBlock::new);
 	}
 
 	// Start of user code block custom blocks

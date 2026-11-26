@@ -1,4 +1,4 @@
-package net.mcreator.singerdemo.entity;
+package net.mcreator.legossift.entity;
 
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
@@ -14,7 +14,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
-import net.mcreator.singerdemo.init.SingerdemoModSounds;
+import net.mcreator.legossift.init.LegosSiftModSounds;
 import net.minecraft.resources.Identifier;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -22,9 +22,9 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.SimpleParticleType;
 
-import net.mcreator.singerdemo.procedures.SingerTickProcedure;
-import net.mcreator.singerdemo.init.SingerdemoModEntities;
-import net.mcreator.singerdemo.SingerdemoMod;
+import net.mcreator.legossift.procedures.SingerTickProcedure;
+import net.mcreator.legossift.init.LegosSiftModEntities;
+import net.mcreator.legossift.LegosSiftMod;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.Set;
@@ -125,12 +125,12 @@ public class SingerEntity extends PathfinderMob implements GeoEntity {
 
     @Override
     protected SoundEvent getHurtSound(DamageSource source) {
-        return SingerdemoModSounds.SINGERHURT.get();
+        return LegosSiftModSounds.SINGERHURT.get();
     }
 
     @Override
     protected SoundEvent getDeathSound() {
-        return SingerdemoModSounds.SINGERHURT.get();
+        return LegosSiftModSounds.SINGERHURT.get();
     }
 
     // =====================================================
@@ -213,7 +213,7 @@ public class SingerEntity extends PathfinderMob implements GeoEntity {
 
     public static void init(RegisterSpawnPlacementsEvent event) {
         event.register(
-                SingerdemoModEntities.SINGER.get(),
+                LegosSiftModEntities.SINGER.get(),
                 SpawnPlacementTypes.NO_RESTRICTIONS,
                 Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
                 Mob::checkMobSpawnRules,
@@ -543,7 +543,7 @@ public class SingerEntity extends PathfinderMob implements GeoEntity {
 
         } else if (UNKNOWN_PARTICLE_EFFECTS.add(effect)) {
 
-            SingerdemoMod.LOGGER.warn(
+            LegosSiftMod.LOGGER.warn(
                     "Particle keyframe effect \"{}\" in Singer animations is not a registered particle id, so nothing is spawned",
                     effect
             );

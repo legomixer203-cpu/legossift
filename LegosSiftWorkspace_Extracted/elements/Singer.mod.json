@@ -7,25 +7,25 @@
     "mobModelTexture": "singer1.png",
     "mobModelGlowTexture": "singer1.png",
     "visualScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1
     },
     "boundingBoxScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1
     },
     "entityDataEntries": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "mountedYOffset": 0.0,
+    "mountedYOffset": 0,
     "stepHeight": 0.6,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -1,
-      "falpha": 0.0
+      "falpha": 0
     },
     "spawnEggDotColor": {
       "value": -1,
-      "falpha": 0.0
+      "falpha": 0
     },
     "creativeTabs": [],
     "isBoss": false,
@@ -40,10 +40,10 @@
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 0,
-    "attackKnockback": 0.0,
-    "knockbackResistance": 0.0,
+    "attackKnockback": 0,
+    "knockbackResistance": 0,
     "movementSpeed": 0.1,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 0,
     "trackingRange": 64,
     "followRange": 16,
     "health": 30,
@@ -118,8 +118,8 @@
     "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
-    "rangedAttackRadius": 10.0,
-    "height": 1.0,
+    "rangedAttackRadius": 10,
+    "height": 1,
     "attackRate": 7,
     "raidSpawnsCount": [
       4,
@@ -140,6 +140,14 @@
     "spawnInDungeons": false
   },
   "metadata": {
-    "files": []
+    "files": [
+      "src/main/java/net/mcreator/legossift/client/renderer/SingerRenderer.java",
+      "src/main/resources/assets/legos_sift/models/item/singer_spawn_egg.json",
+      "src/main/resources/assets/legos_sift/items/singer_spawn_egg.json",
+      "src/main/java/net/mcreator/legossift/entity/SingerEntity.java",
+      "src/main/java/net/mcreator/legossift/entity/model/SingerModel.java",
+      "src/main/resources/assets/legos_sift/geckolib/models/entity/singer_-_sift_mob.geo.json",
+      "src/main/resources/assets/legos_sift/geckolib/animations/entity/singer_-_sift_mob.animation.json"
+    ]
   }
 }

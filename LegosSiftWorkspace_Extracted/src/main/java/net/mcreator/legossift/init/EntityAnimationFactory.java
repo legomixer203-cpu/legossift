@@ -6,6 +6,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.legossift.entity.SproutEntity;
+import net.mcreator.legossift.entity.SingerEntity;
 import net.mcreator.legossift.entity.SlabberEntity;
 import net.mcreator.legossift.entity.SeedlingEntity;
 import net.mcreator.legossift.entity.NuzzleEntity;
@@ -45,6 +46,14 @@ public class EntityAnimationFactory {
 			String animation = syncable.getSyncedAnimation();
 			if (!animation.equals("undefined")) {
 				syncable.getEntityData().set(SeedlingEntity.ANIMATION, "undefined");
+				syncable.animationprocedure = animation;
+			}
+			syncable.applySyncedControllerAnimations();
+		}
+		if (event.getEntity() instanceof SingerEntity syncable) {
+			String animation = syncable.getSyncedAnimation();
+			if (!animation.equals("undefined")) {
+				syncable.getEntityData().set(SingerEntity.ANIMATION, "undefined");
 				syncable.animationprocedure = animation;
 			}
 			syncable.applySyncedControllerAnimations();

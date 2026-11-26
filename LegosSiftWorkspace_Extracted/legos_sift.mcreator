@@ -586,6 +586,54 @@
           "src/main/java/net/mcreator/legossift/procedures/IchorDamageProcedure.java"
         ]
       }
+    },
+    {
+      "name": "SoulBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/loot_table/blocks/soul_block.json",
+          "src/main/resources/assets/legos_sift/models/item/soul_block.json",
+          "src/main/resources/assets/legos_sift/models/block/soul_block.json",
+          "src/main/resources/assets/legos_sift/items/soul_block.json",
+          "src/main/java/net/mcreator/legossift/block/SoulBlockBlock.java",
+          "src/main/resources/assets/legos_sift/blockstates/soul_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SingerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "singer_tick",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/legossift/procedures/SingerTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Singer",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "singer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/client/renderer/SingerRenderer.java",
+          "src/main/resources/assets/legos_sift/models/item/singer_spawn_egg.json",
+          "src/main/resources/assets/legos_sift/items/singer_spawn_egg.json",
+          "src/main/java/net/mcreator/legossift/entity/SingerEntity.java",
+          "src/main/java/net/mcreator/legossift/entity/model/SingerModel.java",
+          "src/main/resources/assets/legos_sift/geckolib/models/entity/singer_-_sift_mob.geo.json",
+          "src/main/resources/assets/legos_sift/geckolib/animations/entity/singer_-_sift_mob.animation.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -739,7 +787,7 @@
       "entity.legos_sift.blub": "Blub",
       "item.legos_sift.wisp_leaves": "Wisp Leaves",
       "item.legos_sift.wisp_logs": "Wisp Logs",
-      "biome.legos_sift.singers_meadow": "Singer\u0027s Meadow",
+      "biome.legos_sift.singers_meadow": "Singer's Meadow",
       "item.legos_sift.wisp_planks": "Wisp Logs",
       "item.legos_sift.sift_stone": "Sift Stone",
       "subtitles.singers_haven": "",
@@ -797,7 +845,7 @@
   },
   "workspaceSettings": {
     "modid": "legos_sift",
-    "modName": "Lego\u0027s Sift",
+    "modName": "Lego's Sift",
     "version": "1.0.0",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",

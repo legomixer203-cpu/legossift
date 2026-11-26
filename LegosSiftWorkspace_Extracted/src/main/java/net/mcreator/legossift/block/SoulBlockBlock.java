@@ -1,4 +1,4 @@
-package net.mcreator.singerdemo.block;
+package net.mcreator.legossift.block;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;

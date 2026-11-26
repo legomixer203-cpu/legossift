@@ -20,6 +20,12 @@ public class LegosSiftModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(LegosSiftModItems.SOUL_BLOCK.get());
+		}
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(LegosSiftModItems.SINGER_SPAWN_EGG.get());
+		}
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LegosSiftModItems.ICHOR_BUCKET.get());
 		}

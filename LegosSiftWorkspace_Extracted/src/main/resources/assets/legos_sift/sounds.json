@@ -110,5 +110,49 @@
         "stream": false
       }
     ]
+  },
+  "singeridle": {
+    "sounds": [
+      {
+        "name": "legos_sift:idle_2",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:idle_1",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:idle_0",
+        "stream": false
+      }
+    ]
+  },
+  "singerhurt": {
+    "sounds": [
+      {
+        "name": "legos_sift:hurt_3",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:hurt_2",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:hurt_1",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:hurt_0",
+        "stream": false
+      }
+    ]
+  },
+  "singersing": {
+    "sounds": [
+      {
+        "name": "legos_sift:sing",
+        "stream": false
+      }
+    ]
   }
 }

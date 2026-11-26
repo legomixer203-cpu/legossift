@@ -1,8 +1,8 @@
-package net.mcreator.singerdemo.procedures;
+package net.mcreator.legossift.procedures;
 
-import net.mcreator.singerdemo.init.SingerdemoModBlocks;
-import net.mcreator.singerdemo.init.SingerdemoModSounds;
-import net.mcreator.singerdemo.entity.SingerEntity;
+import net.mcreator.legossift.init.LegosSiftModBlocks;
+import net.mcreator.legossift.init.LegosSiftModSounds;
+import net.mcreator.legossift.entity.SingerEntity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -26,7 +26,7 @@ public final class SingerTickProcedure {
     private static void playSingerVoice(ServerLevel level, Entity entity) {
 
         // Get the registered custom singing sound.
-        var sound = SingerdemoModSounds.SINGERSING.get();
+        var sound = LegosSiftModSounds.SINGERSING.get();
 
         System.out.println("[SINGER] Playing singing sound!");
 
@@ -225,7 +225,7 @@ public final class SingerTickProcedure {
 
                         serverLevel.setBlock(
                                 target,
-                                SingerdemoModBlocks.SOUL_BLOCK.get()
+                                LegosSiftModBlocks.SOUL_BLOCK.get()
                                         .defaultBlockState(),
                                 3
                         );
