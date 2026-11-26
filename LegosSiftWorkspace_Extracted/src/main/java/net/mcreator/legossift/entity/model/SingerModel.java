@@ -1,8 +1,8 @@
-package net.mcreator.singerdemo.entity.model;
+package net.mcreator.legossift.entity.model;
 
 import net.minecraft.resources.Identifier;
 
-import net.mcreator.singerdemo.entity.SingerEntity;
+import net.mcreator.legossift.entity.SingerEntity;
 
 import com.geckolib.renderer.base.GeoRenderState;
 import com.geckolib.model.DefaultedEntityGeoModel;
@@ -10,15 +10,15 @@ import com.geckolib.constant.dataticket.DataTicket;
 import com.geckolib.cache.GeckoLibResources;
 
 public class SingerModel extends DefaultedEntityGeoModel<SingerEntity> {
-	public static final DataTicket<String> TEXTURE = DataTicket.create("singerdemo_singer_texture", String.class);
+	public static final DataTicket<String> TEXTURE = DataTicket.create("legos_sift_singer_texture", String.class);
 	/** Flat layout fallback when assets were imported without entity/ subfolders. */
-	private static final Identifier MODEL_FLAT = Identifier.fromNamespaceAndPath("singerdemo", "singer_-_sift_mob");
-	private static final Identifier ANIM_FLAT = Identifier.fromNamespaceAndPath("singerdemo", "singer_-_sift_mob");
+	private static final Identifier MODEL_FLAT = Identifier.fromNamespaceAndPath("legos_sift", "singer_-_sift_mob");
+	private static final Identifier ANIM_FLAT = Identifier.fromNamespaceAndPath("legos_sift", "singer_-_sift_mob");
 
 	public SingerModel() {
 		// DefaultedEntityGeoModel prefixes model/anim keys with entity/
 		// matching: geckolib/models/entity/<path> and geckolib/animations/entity/<path>
-		super(Identifier.fromNamespaceAndPath("singerdemo", "singer_-_sift_mob"));
+		super(Identifier.fromNamespaceAndPath("legos_sift", "singer_-_sift_mob"));
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class SingerModel extends DefaultedEntityGeoModel<SingerEntity> {
 	@Override
 	public Identifier getTextureResource(GeoRenderState renderState) {
 		String texture = renderState.getOrDefaultGeckolibData(TEXTURE, "singer1");
-		return Identifier.fromNamespaceAndPath("singerdemo", "textures/entities/" + texture + ".png");
+		return Identifier.fromNamespaceAndPath("legos_sift", "textures/entities/" + texture + ".png");
 	}
 
 	@Override

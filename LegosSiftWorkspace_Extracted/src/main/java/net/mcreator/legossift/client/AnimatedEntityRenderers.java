@@ -11,6 +11,7 @@ import net.mcreator.legossift.client.renderer.SlabberRenderer;
 import net.mcreator.legossift.client.renderer.SeedlingRenderer;
 import net.mcreator.legossift.client.renderer.NuzzleRenderer;
 import net.mcreator.legossift.client.renderer.BlubRenderer;
+import net.mcreator.legossift.client.renderer.SingerRenderer;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class AnimatedEntityRenderers {
@@ -21,5 +22,6 @@ public class AnimatedEntityRenderers {
 		event.registerEntityRenderer(LegosSiftModEntities.NUZZLE.get(), NuzzleRenderer::new);
 		event.registerEntityRenderer(LegosSiftModEntities.SEEDLING.get(), SeedlingRenderer::new);
 		event.registerEntityRenderer(LegosSiftModEntities.SPROUT.get(), SproutRenderer::new);
+		event.registerEntityRenderer(LegosSiftModEntities.SINGER.get(), SingerRenderer::new);
 	}
 }

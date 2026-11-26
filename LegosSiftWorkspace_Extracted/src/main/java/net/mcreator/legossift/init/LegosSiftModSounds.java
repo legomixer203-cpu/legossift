@@ -21,4 +21,7 @@ public class LegosSiftModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> NUZZLESOUNDS = REGISTRY.register("nuzzlesounds", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legos_sift", "nuzzlesounds")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SEEDLINGSOUNDS = REGISTRY.register("seedlingsounds", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legos_sift", "seedlingsounds")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SPROUTSOUNDS = REGISTRY.register("sproutsounds", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legos_sift", "sproutsounds")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SINGERIDLE = REGISTRY.register("singeridle", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legos_sift", "singeridle")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SINGERHURT = REGISTRY.register("singerhurt", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legos_sift", "singerhurt")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SINGERSING = REGISTRY.register("singersing", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("legos_sift", "singersing")));
 }

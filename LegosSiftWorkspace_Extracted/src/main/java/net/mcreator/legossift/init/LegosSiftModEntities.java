@@ -15,6 +15,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.legossift.entity.SproutEntity;
+import net.mcreator.legossift.entity.SingerEntity;
 import net.mcreator.legossift.entity.SlabberEntity;
 import net.mcreator.legossift.entity.SeedlingEntity;
 import net.mcreator.legossift.entity.NuzzleEntity;
@@ -55,6 +56,11 @@ public class LegosSiftModEntities {
 
 	);
 
+	public static final DeferredHolder<EntityType<?>, EntityType<SingerEntity>> SINGER = register("singer",
+			EntityType.Builder.<SingerEntity>of(SingerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+					.sized(0.6f, 1.8f)
+	);
+
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
@@ -68,6 +74,7 @@ public class LegosSiftModEntities {
 		NuzzleEntity.init(event);
 		SeedlingEntity.init(event);
 		SproutEntity.init(event);
+		SingerEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -77,5 +84,6 @@ public class LegosSiftModEntities {
 		event.put(NUZZLE.get(), NuzzleEntity.createAttributes().build());
 		event.put(SEEDLING.get(), SeedlingEntity.createAttributes().build());
 		event.put(SPROUT.get(), SproutEntity.createAttributes().build());
+		event.put(SINGER.get(), SingerEntity.createAttributes().build());
 	}
 }

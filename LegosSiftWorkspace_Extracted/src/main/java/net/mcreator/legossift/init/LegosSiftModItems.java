@@ -11,6 +11,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -39,6 +40,8 @@ public class LegosSiftModItems {
 	public static final DeferredItem<Item> ICHOR_BUCKET;
 	public static final DeferredItem<Item> SIFT_SAND;
 	public static final DeferredItem<Item> SAND_COVERED_SIFT_STONE;
+	public static final DeferredItem<Item> SOUL_BLOCK;
+	public static final DeferredItem<Item> SINGER_SPAWN_EGG;
 	static {
 		BLUB_SPAWN_EGG = register("blub_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(LegosSiftModEntities.BLUB.get())));
 		DARK_SIFT_GRASS_BLOCK = block(LegosSiftModBlocks.DARK_SIFT_GRASS_BLOCK);
@@ -57,6 +60,8 @@ public class LegosSiftModItems {
 		ICHOR_BUCKET = register("ichor_bucket", IchorItem::new);
 		SIFT_SAND = block(LegosSiftModBlocks.SIFT_SAND);
 		SAND_COVERED_SIFT_STONE = block(LegosSiftModBlocks.SAND_COVERED_SIFT_STONE);
+		SOUL_BLOCK = block(LegosSiftModBlocks.SOUL_BLOCK, new Item.Properties().rarity(Rarity.UNCOMMON));
+		SINGER_SPAWN_EGG = register("singer_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(LegosSiftModEntities.SINGER.get())));
 	}
 
 	// Start of user code block custom items

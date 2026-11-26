@@ -1,4 +1,4 @@
-package net.mcreator.singerdemo.client.renderer;
+package net.mcreator.legossift.client.renderer;
 
 import net.minecraft.resources.Identifier;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
@@ -6,8 +6,8 @@ import net.minecraft.client.renderer.rendertype.RenderType;
 import net.minecraft.client.renderer.entity.state.LivingEntityRenderState;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
-import net.mcreator.singerdemo.entity.model.SingerModel;
-import net.mcreator.singerdemo.entity.SingerEntity;
+import net.mcreator.legossift.entity.model.SingerModel;
+import net.mcreator.legossift.entity.SingerEntity;
 
 import com.geckolib.renderer.base.RenderPassInfo;
 import com.geckolib.renderer.base.BoneSnapshots;
@@ -15,7 +15,7 @@ import com.geckolib.renderer.GeoEntityRenderer;
 import com.geckolib.constant.dataticket.DataTicket;
 
 public class SingerRenderer extends GeoEntityRenderer<SingerEntity, LivingEntityRenderState> {
-	public static final DataTicket<Float> VISUAL_SCALE = DataTicket.create("singerdemo_singer_visual_scale", Float.class);
+	public static final DataTicket<Float> VISUAL_SCALE = DataTicket.create("legos_sift_singer_visual_scale", Float.class);
 
 	public SingerRenderer(EntityRendererProvider.Context context) {
 		super(context, new SingerModel());
