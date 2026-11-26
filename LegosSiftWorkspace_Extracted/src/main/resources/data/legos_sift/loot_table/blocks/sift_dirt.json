@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "legos_sift:blocks/sift_dirt",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legos_sift:sift_dirt"
+        }
+      ]
+    }
+  ]
+}

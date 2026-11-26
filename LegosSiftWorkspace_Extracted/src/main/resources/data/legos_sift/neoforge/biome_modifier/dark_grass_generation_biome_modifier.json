@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "legos_sift:dark_grass_generation",
+  "step": "vegetal_decoration"
+}

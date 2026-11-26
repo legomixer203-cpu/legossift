@@ -1,0 +1,26 @@
+{
+  "singer_song_1": {
+    "subtitle": "subtitles.singerdemo.singer_song_1",
+    "sounds": [
+      { "name": "singerdemo:entity/singer/song_1", "stream": true }
+    ]
+  },
+  "singer_song_2": {
+    "subtitle": "subtitles.singerdemo.singer_song_2",
+    "sounds": [
+      { "name": "singerdemo:entity/singer/song_2", "stream": true }
+    ]
+  },
+  "singer_song_3": {
+    "subtitle": "subtitles.singerdemo.singer_song_3",
+    "sounds": [
+      { "name": "singerdemo:entity/singer/song_3", "stream": true }
+    ]
+  },
+  "singer_song_4": {
+    "subtitle": "subtitles.singerdemo.singer_song_4",
+    "sounds": [
+      { "name": "singerdemo:entity/singer/song_4", "stream": true }
+    ]
+  }
+}

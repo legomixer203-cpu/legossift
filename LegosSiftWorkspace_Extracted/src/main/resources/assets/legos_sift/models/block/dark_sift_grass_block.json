@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "legos_sift:block/pink_sift_grass_block_texture",
+    "particle": "legos_sift:block/pink_sift_grass_block_texture"
+  }
+}

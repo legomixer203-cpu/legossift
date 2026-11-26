@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "legos_sift:green_sift_plains",
+  "features": "legos_sift:green_grass_patches",
+  "step": "local_modifications"
+}

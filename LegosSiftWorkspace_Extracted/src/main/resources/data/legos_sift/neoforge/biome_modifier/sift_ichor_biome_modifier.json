@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "legos_sift:green_sift_plains",
+    "legos_sift:singers_meadow"
+  ],
+  "features": "legos_sift:sift_ichor",
+  "step": "surface_structures"
+}

@@ -1,0 +1,136 @@
+{
+  "mod_elements": [
+    {
+      "name": "SoulBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/singerdemo/loot_table/blocks/soul_block.json",
+          "src/main/resources/assets/singerdemo/models/item/soul_block.json",
+          "src/main/resources/assets/singerdemo/models/block/soul_block.json",
+          "src/main/resources/assets/singerdemo/items/soul_block.json",
+          "src/main/java/net/mcreator/singerdemo/block/SoulBlockBlock.java",
+          "src/main/resources/assets/singerdemo/blockstates/soul_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SingerTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "singer_tick",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/singerdemo/procedures/SingerTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Singer",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "singer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/singerdemo/client/renderer/SingerRenderer.java",
+          "src/main/resources/assets/singerdemo/models/item/singer_spawn_egg.json",
+          "src/main/resources/assets/singerdemo/items/singer_spawn_egg.json",
+          "src/main/java/net/mcreator/singerdemo/entity/SingerEntity.java",
+          "src/main/resources/data/singerdemo/neoforge/biome_modifier/singer_spawns.json",
+          "src/main/java/net/mcreator/singerdemo/entity/model/SingerModel.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "singeridle",
+      "files": [
+        "idle_2",
+        "idle_1",
+        "idle_0"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "singerhurt",
+      "files": [
+        "hurt_3",
+        "hurt_2",
+        "hurt_1",
+        "hurt_0"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "singersing",
+      "files": [
+        "sing"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.singerdemo.soul_block": "Soul Block",
+      "item.singerdemo.soul_block": "Soul Block",
+      "subtitles.singeridle": "",
+      "subtitles.singerhurt": "",
+      "subtitles.singersing": "",
+      "item.singerdemo.singer_spawn_egg": "Singer Spawn Egg",
+      "entity.singerdemo.singer": "Singer"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/singerdemo/init/EntityAnimationFactory.java",
+      "src/main/java/net/mcreator/singerdemo/client/AnimatedEntityRenderers.java",
+      "src/main/java/net/mcreator/singerdemo/init/SingerdemoModBlocks.java",
+      "src/main/java/net/mcreator/singerdemo/init/SingerdemoModItems.java",
+      "src/main/java/net/mcreator/singerdemo/init/SingerdemoModEntities.java",
+      "src/main/java/net/mcreator/singerdemo/init/SingerdemoModEntityRenderers.java",
+      "src/main/resources/assets/singerdemo/sounds.json",
+      "src/main/java/net/mcreator/singerdemo/init/SingerdemoModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/singerdemo/SingerdemoMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/singerdemo/init/SingerdemoModSounds.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "singerdemo",
+    "modName": "Singer Sift Demo",
+    "version": "1.0.0",
+    "description": "A peaceful Singer mob that sings and materializes Soul Blocks from spiraling soul particles.",
+    "author": "OpenAI",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Standalone MCreator demo workspace for Singer and Soul Block.",
+    "modElementsPackage": "net.mcreator.singerdemo"
+  },
+  "mcreatorVersion": 202600233518
+}

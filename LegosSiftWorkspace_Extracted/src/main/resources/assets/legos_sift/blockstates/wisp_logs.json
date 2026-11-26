@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "legos_sift:block/wisp_logs",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "legos_sift:block/wisp_logs"
+    },
+    "axis=z": {
+      "model": "legos_sift:block/wisp_logs",
+      "x": 90
+    }
+  }
+}

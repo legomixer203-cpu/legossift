@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "legos_sift:humbler_husklands",
+  "features": "legos_sift:huskland_ichor_pools",
+  "step": "surface_structures"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "legos_sift:block/end_stone",
+    "top": "legos_sift:block/horn_coral_block",
+    "side": "legos_sift:block/grass_block_snow",
+    "overlay": "legos_sift:block/grass_block_snow",
+    "particle": "legos_sift:block/end_stone"
+  }
+}

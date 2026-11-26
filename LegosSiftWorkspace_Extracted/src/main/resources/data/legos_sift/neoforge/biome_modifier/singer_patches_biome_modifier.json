@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "legos_sift:singers_meadow",
+  "features": "legos_sift:singer_patches",
+  "step": "local_modifications"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "legos_sift:pink_and_teal_grass_block"
+    },
+    "state": {
+      "Name": "legos_sift:teal_sift_grass_block"
+    },
+    "radius": {
+      "type": "uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    }
+  }
+}

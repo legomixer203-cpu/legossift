@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "legos_sift:blocks/pink_and_teal_grass_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legos_sift:pink_and_teal_grass_block"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="singerdemo"
+version="1.0.0"
+displayName="Singer Sift Demo"
+displayURL="https://mcreator.net"
+credits="Standalone MCreator demo workspace for Singer and Soul Block."
+authors="OpenAI"
+description="A peaceful Singer mob that sings and materializes Soul Blocks from spiraling soul particles."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.singerdemo]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.95,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.singerdemo]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.singerdemo]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

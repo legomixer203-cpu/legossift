@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "legos_sift:blocks/sand_covered_sift_stone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "legos_sift:sand_covered_sift_stone"
+        }
+      ]
+    }
+  ]
+}

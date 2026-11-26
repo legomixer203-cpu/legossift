@@ -1,0 +1,114 @@
+{
+  "blubidle": {
+    "sounds": [
+      {
+        "name": "legos_sift:blub_3",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:blub_2",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:blub_1",
+        "stream": false
+      }
+    ]
+  },
+  "siftmusic": {
+    "sounds": [
+      {
+        "name": "legos_sift:humbler_huskland_endure",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:singers_haven",
+        "stream": false
+      }
+    ]
+  },
+  "slabbersounds": {
+    "sounds": [
+      {
+        "name": "legos_sift:slabber_6",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:slabber_5",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:slabber_4",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:slabber_3",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:slabber_2",
+        "stream": false
+      }
+    ]
+  },
+  "siftambient": {
+    "sounds": [
+      {
+        "name": "legos_sift:mites_thrive_-_minecraft_-_topic_128k",
+        "stream": false
+      }
+    ]
+  },
+  "nuzzlesounds": {
+    "sounds": [
+      {
+        "name": "legos_sift:mob_herd_idle_001_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:mob_herd_idle_002_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:mob_herd_idle_003_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:mob_herd_idle_004_sfx.wav",
+        "stream": false
+      }
+    ]
+  },
+  "seedlingsounds": {
+    "sounds": [
+      {
+        "name": "legos_sift:play_sfx_mob_babysentinel_idle_003_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:play_sfx_mob_babysentinel_idle_002_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:play_sfx_mob_babysentinel_idle_001_sfx.wav",
+        "stream": false
+      }
+    ]
+  },
+  "sproutsounds": {
+    "sounds": [
+      {
+        "name": "legos_sift:play_sfx_mob_flyingsentinel_idle_01_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:play_sfx_mob_flyingsentinel_idle_02_sfx.wav",
+        "stream": false
+      },
+      {
+        "name": "legos_sift:play_sfx_mob_flyingsentinel_idle_03_sfx.wav",
+        "stream": false
+      }
+    ]
+  }
+}

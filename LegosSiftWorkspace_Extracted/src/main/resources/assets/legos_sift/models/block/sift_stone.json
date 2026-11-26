@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "legos_sift:block/end_stone",
+    "particle": "legos_sift:block/end_stone"
+  }
+}

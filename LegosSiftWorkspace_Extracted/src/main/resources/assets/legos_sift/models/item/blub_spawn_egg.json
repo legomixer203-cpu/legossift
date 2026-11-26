@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "legos_sift:item/blub_spawn_egg_generated"
+  }
+}

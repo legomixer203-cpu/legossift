@@ -1,0 +1,8 @@
+Place your four OGG Vorbis audio clips in this folder and name them:
+  song_1.ogg
+  song_2.ogg
+  song_3.ogg
+  song_4.ogg
+
+The Singer code currently uses example lengths of 8, 14, 23, and 5 seconds.
+Edit the duration values in SingerEntity.java to match the actual clip lengths.

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "singerdemo:block/soul_block"
+    }
+  }
+}

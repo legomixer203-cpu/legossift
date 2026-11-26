@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "legos_sift:singers_meadow",
+    "legos_sift:green_sift_plains",
+    "legos_sift:humbler_husklands"
+  ],
+  "spawners": {
+    "type": "legos_sift:seedling",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "legos_sift:block/pale_oak_planks",
+    "particle": "legos_sift:block/pale_oak_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "legos_sift:humbler_husklands",
+  "features": "legos_sift:sand_patches",
+  "step": "local_modifications"
+}

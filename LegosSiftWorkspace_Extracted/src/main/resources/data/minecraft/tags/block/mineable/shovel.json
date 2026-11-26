@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "legos_sift:dark_sift_grass_block",
+    "legos_sift:light_sift_grass_block",
+    "legos_sift:sift_dirt",
+    "legos_sift:pink_and_teal_grass_block",
+    "legos_sift:sift_sand",
+    "legos_sift:teal_sift_grass_block"
+  ]
+}

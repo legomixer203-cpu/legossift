@@ -1,0 +1,817 @@
+{
+  "mod_elements": [
+    {
+      "name": "Blub",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blub",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/items/blub_spawn_egg.json",
+          "src/main/java/net/mcreator/legossift/entity/BlubEntity.java",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/blub_biome_modifier.json",
+          "src/main/java/net/mcreator/legossift/entity/model/BlubModel.java",
+          "src/main/resources/assets/legos_sift/models/item/blub_spawn_egg.json",
+          "src/main/java/net/mcreator/legossift/client/renderer/BlubRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "DarkSiftGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sift_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/items/dark_sift_grass_block.json",
+          "src/main/java/net/mcreator/legossift/block/DarkSiftGrassBlockBlock.java",
+          "src/main/resources/assets/legos_sift/blockstates/dark_sift_grass_block.json",
+          "src/main/resources/data/legos_sift/loot_table/blocks/dark_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/models/block/dark_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/models/item/dark_sift_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LightSiftGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_sift_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/block/LightSiftGrassBlockBlock.java",
+          "src/main/resources/assets/legos_sift/models/block/light_sift_grass_block.json",
+          "src/main/resources/data/legos_sift/loot_table/blocks/light_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/models/item/light_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/items/light_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/blockstates/light_sift_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "WispLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/block/WispLeavesBlock.java",
+          "src/main/resources/assets/legos_sift/blockstates/wisp_leaves.json",
+          "src/main/resources/assets/legos_sift/models/item/wisp_leaves.json",
+          "src/main/resources/assets/legos_sift/items/wisp_leaves.json",
+          "src/main/resources/assets/legos_sift/models/block/wisp_leaves.json",
+          "src/main/resources/data/legos_sift/loot_table/blocks/wisp_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "WispLogs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/models/block/wisp_logs.json",
+          "src/main/resources/assets/legos_sift/blockstates/wisp_logs.json",
+          "src/main/java/net/mcreator/legossift/block/WispLogsBlock.java",
+          "src/main/resources/data/legos_sift/loot_table/blocks/wisp_logs.json",
+          "src/main/resources/assets/legos_sift/models/item/wisp_logs.json",
+          "src/main/resources/assets/legos_sift/items/wisp_logs.json"
+        ]
+      }
+    },
+    {
+      "name": "SingersMeadow",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singers_meadow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/biome/singers_meadow.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/singers_meadow_tree.json",
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/singers_meadow_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "WispPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wisp_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/loot_table/blocks/wisp_planks.json",
+          "src/main/resources/assets/legos_sift/models/block/wisp_planks.json",
+          "src/main/resources/assets/legos_sift/models/item/wisp_planks.json",
+          "src/main/java/net/mcreator/legossift/block/WispPlanksBlock.java",
+          "src/main/resources/assets/legos_sift/items/wisp_planks.json",
+          "src/main/resources/assets/legos_sift/blockstates/wisp_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "SiftStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sift_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/blockstates/sift_stone.json",
+          "src/main/java/net/mcreator/legossift/block/SiftStoneBlock.java",
+          "src/main/resources/data/legos_sift/loot_table/blocks/sift_stone.json",
+          "src/main/resources/assets/legos_sift/models/block/sift_stone.json",
+          "src/main/resources/assets/legos_sift/items/sift_stone.json",
+          "src/main/resources/assets/legos_sift/models/item/sift_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "TheSift",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_sift",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/dimension/the_sift.json",
+          "src/main/resources/data/legos_sift/timeline/the_sift_effects.json",
+          "src/main/resources/data/legos_sift/dimension_type/the_sift.json"
+        ]
+      }
+    },
+    {
+      "name": "Slabber",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slabber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/entity/SlabberEntity.java",
+          "src/main/resources/assets/legos_sift/items/slabber_spawn_egg.json",
+          "src/main/resources/assets/legos_sift/models/item/slabber_spawn_egg.json",
+          "src/main/java/net/mcreator/legossift/client/renderer/SlabberRenderer.java",
+          "src/main/java/net/mcreator/legossift/entity/model/SlabberModel.java",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/slabber_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SingerPatches",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singer_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/singer_patches.json",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/singer_patches_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/singer_patches.json"
+        ]
+      }
+    },
+    {
+      "name": "SiftDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sift_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/loot_table/blocks/sift_dirt.json",
+          "src/main/resources/assets/legos_sift/blockstates/sift_dirt.json",
+          "src/main/resources/assets/legos_sift/models/item/sift_dirt.json",
+          "src/main/resources/assets/legos_sift/models/block/sift_dirt.json",
+          "src/main/resources/assets/legos_sift/items/sift_dirt.json",
+          "src/main/java/net/mcreator/legossift/block/SiftDirtBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GrassGeneration",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grass_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/dark_grass_generation_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/dark_grass_generation.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/dark_grass_generation.json"
+        ]
+      }
+    },
+    {
+      "name": "Nuzzle",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuzzle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/entity/NuzzleEntity.java",
+          "src/main/java/net/mcreator/legossift/entity/model/NuzzleModel.java",
+          "src/main/java/net/mcreator/legossift/client/renderer/NuzzleRenderer.java",
+          "src/main/resources/assets/legos_sift/models/item/nuzzle_spawn_egg.json",
+          "src/main/resources/assets/legos_sift/items/nuzzle_spawn_egg.json",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/nuzzle_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "TealSiftGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_sift_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/models/block/teal_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/models/item/teal_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/blockstates/teal_sift_grass_block.json",
+          "src/main/resources/assets/legos_sift/items/teal_sift_grass_block.json",
+          "src/main/resources/data/legos_sift/loot_table/blocks/teal_sift_grass_block.json",
+          "src/main/java/net/mcreator/legossift/block/TealSiftGrassBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenSiftPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_sift_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/biome/green_sift_plains.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenGrassPatches",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_grass_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/green_grass_patches_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/green_grass_patches.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/green_grass_patches.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkAndTealGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_and_teal_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/block/PinkAndTealGrassBlockBlock.java",
+          "src/main/resources/assets/legos_sift/blockstates/pink_and_teal_grass_block.json",
+          "src/main/resources/data/legos_sift/loot_table/blocks/pink_and_teal_grass_block.json",
+          "src/main/resources/assets/legos_sift/models/block/pink_and_teal_grass_block.json",
+          "src/main/resources/assets/legos_sift/items/pink_and_teal_grass_block.json",
+          "src/main/resources/assets/legos_sift/models/item/pink_and_teal_grass_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SeedlingOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seedling_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legossift/procedures/SeedlingOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Seedling",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seedling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/items/seedling_spawn_egg.json",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/seedling_biome_modifier.json",
+          "src/main/java/net/mcreator/legossift/entity/model/SeedlingModel.java",
+          "src/main/java/net/mcreator/legossift/entity/SeedlingEntity.java",
+          "src/main/resources/assets/legos_sift/models/item/seedling_spawn_egg.json",
+          "src/main/java/net/mcreator/legossift/client/renderer/SeedlingRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "SeedlingCanAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seedling_can_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/legossift/procedures/SeedlingCanAttackProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Sprout",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sprout",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/models/item/sprout_spawn_egg.json",
+          "src/main/resources/assets/legos_sift/items/sprout_spawn_egg.json",
+          "src/main/java/net/mcreator/legossift/entity/model/SproutModel.java",
+          "src/main/java/net/mcreator/legossift/entity/SproutEntity.java",
+          "src/main/java/net/mcreator/legossift/client/renderer/SproutRenderer.java",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/sprout_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Ichor",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legossift/fluid/IchorFluid.java",
+          "src/main/java/net/mcreator/legossift/fluid/types/IchorFluidType.java",
+          "src/main/java/net/mcreator/legossift/item/IchorItem.java",
+          "src/main/resources/assets/legos_sift/blockstates/ichor.json",
+          "src/main/resources/assets/legos_sift/models/block/ichor.json",
+          "src/main/java/net/mcreator/legossift/block/IchorBlock.java",
+          "src/main/resources/assets/legos_sift/models/item/ichor_bucket.json",
+          "src/main/java/net/mcreator/legossift/client/fluid/IchorFluidExtension.java",
+          "src/main/resources/assets/legos_sift/items/ichor_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "SiftSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sift_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/loot_table/blocks/sift_sand.json",
+          "src/main/resources/assets/legos_sift/models/item/sift_sand.json",
+          "src/main/resources/assets/legos_sift/items/sift_sand.json",
+          "src/main/resources/assets/legos_sift/models/block/sift_sand.json",
+          "src/main/java/net/mcreator/legossift/block/SiftSandBlock.java",
+          "src/main/resources/assets/legos_sift/blockstates/sift_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "SandCoveredSiftStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_covered_sift_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legos_sift/models/item/sand_covered_sift_stone.json",
+          "src/main/resources/assets/legos_sift/models/block/sand_covered_sift_stone.json",
+          "src/main/resources/data/legos_sift/loot_table/blocks/sand_covered_sift_stone.json",
+          "src/main/resources/assets/legos_sift/items/sand_covered_sift_stone.json",
+          "src/main/resources/assets/legos_sift/blockstates/sand_covered_sift_stone.json",
+          "src/main/java/net/mcreator/legossift/block/SandCoveredSiftStoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "HumblerHusklands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humbler_husklands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/biome/humbler_husklands.json"
+        ]
+      }
+    },
+    {
+      "name": "SandPatches",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_patches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/sand_patches_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/sand_patches.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/sand_patches.json"
+        ]
+      }
+    },
+    {
+      "name": "HusklandIchorPools",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huskland_ichor_pools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/huskland_ichor_pools_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/huskland_ichor_pools.json",
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/huskland_ichor_pools.json"
+        ]
+      }
+    },
+    {
+      "name": "SiftIchor",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sift_ichor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/sift_ichor.json",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/sift_ichor_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/sift_ichor.json"
+        ]
+      }
+    },
+    {
+      "name": "IchorParticles",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichor_particles",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legossift/procedures/IchorParticlesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ribcage",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ribcage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/structure/ribcage.json",
+          "src/main/resources/data/legos_sift/worldgen/structure_set/ribcage.json",
+          "src/main/resources/data/legos_sift/worldgen/template_pool/ribcage.json"
+        ]
+      }
+    },
+    {
+      "name": "LargeRib",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "large_rib",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/template_pool/large_rib.json",
+          "src/main/resources/data/legos_sift/worldgen/structure/large_rib.json",
+          "src/main/resources/data/legos_sift/worldgen/structure_set/large_rib.json"
+        ]
+      }
+    },
+    {
+      "name": "MediumRib",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_rib",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/structure/medium_rib.json",
+          "src/main/resources/data/legos_sift/worldgen/structure_set/medium_rib.json",
+          "src/main/resources/data/legos_sift/worldgen/template_pool/medium_rib.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallRib",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_rib",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/template_pool/small_rib.json",
+          "src/main/resources/data/legos_sift/worldgen/structure_set/small_rib.json",
+          "src/main/resources/data/legos_sift/worldgen/structure/small_rib.json"
+        ]
+      }
+    },
+    {
+      "name": "HusklandSculk",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huskland_sculk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/legos_sift/worldgen/configured_feature/huskland_sculk.json",
+          "src/main/resources/data/legos_sift/neoforge/biome_modifier/huskland_sculk_biome_modifier.json",
+          "src/main/resources/data/legos_sift/worldgen/placed_feature/huskland_sculk.json"
+        ]
+      }
+    },
+    {
+      "name": "IchorDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichor_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/legossift/procedures/IchorDamageProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "blubidle",
+      "files": [
+        "blub_3",
+        "blub_2",
+        "blub_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "siftmusic",
+      "files": [
+        "humbler_huskland_endure",
+        "singers_haven"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "slabbersounds",
+      "files": [
+        "slabber_6",
+        "slabber_5",
+        "slabber_4",
+        "slabber_3",
+        "slabber_2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "siftambient",
+      "files": [
+        "mites_thrive_-_minecraft_-_topic_128k"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "nuzzlesounds",
+      "files": [
+        "mob_herd_idle_001_sfx.wav",
+        "mob_herd_idle_002_sfx.wav",
+        "mob_herd_idle_003_sfx.wav",
+        "mob_herd_idle_004_sfx.wav"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "seedlingsounds",
+      "files": [
+        "play_sfx_mob_babysentinel_idle_003_sfx.wav",
+        "play_sfx_mob_babysentinel_idle_002_sfx.wav",
+        "play_sfx_mob_babysentinel_idle_001_sfx.wav"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sproutsounds",
+      "files": [
+        "play_sfx_mob_flyingsentinel_idle_01_sfx.wav",
+        "play_sfx_mob_flyingsentinel_idle_02_sfx.wav",
+        "play_sfx_mob_flyingsentinel_idle_03_sfx.wav"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "CUSTOM:DarkSiftGrassBlock",
+      "CUSTOM:LightSiftGrassBlock",
+      "CUSTOM:SiftDirt",
+      "CUSTOM:TealSiftGrassBlock",
+      "CUSTOM:PinkAndTealGrassBlock",
+      "CUSTOM:SiftSand",
+      "CUSTOM:SandCoveredSiftStone"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:DarkSiftGrassBlock",
+      "CUSTOM:LightSiftGrassBlock",
+      "CUSTOM:SiftDirt",
+      "CUSTOM:TealSiftGrassBlock",
+      "CUSTOM:PinkAndTealGrassBlock"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:WispLogs"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:WispLeaves"
+    ],
+    "BLOCKS:minecraft:prevent_mob_spawning_inside": [
+      "CUSTOM:WispLeaves",
+      "CUSTOM:WispLogs"
+    ],
+    "BLOCKS:minecraft:supports_vegetation": [
+      "CUSTOM:DarkSiftGrassBlock",
+      "CUSTOM:LightSiftGrassBlock",
+      "CUSTOM:SiftDirt",
+      "CUSTOM:TealSiftGrassBlock",
+      "CUSTOM:PinkAndTealGrassBlock",
+      "CUSTOM:SiftSand",
+      "CUSTOM:SandCoveredSiftStone"
+    ],
+    "BLOCKS:forge:dirt": [
+      "CUSTOM:DarkSiftGrassBlock",
+      "CUSTOM:LightSiftGrassBlock",
+      "CUSTOM:SiftDirt",
+      "CUSTOM:TealSiftGrassBlock",
+      "CUSTOM:PinkAndTealGrassBlock"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~SiftSand@CUSTOM:SiftSand",
+      "~DarkSiftGrassBlock@CUSTOM:DarkSiftGrassBlock",
+      "~LightSiftGrassBlock@CUSTOM:LightSiftGrassBlock",
+      "~SiftDirt@CUSTOM:SiftDirt",
+      "~TealSiftGrassBlock@CUSTOM:TealSiftGrassBlock",
+      "~PinkAndTealGrassBlock@CUSTOM:PinkAndTealGrassBlock"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~TheSift@CUSTOM:SiftSand",
+      "~TheSift@CUSTOM:SiftDirt",
+      "~TheSift@CUSTOM:SiftStone",
+      "~TheSift@CUSTOM:LightSiftGrassBlock",
+      "CUSTOM:PinkAndTealGrassBlock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~SandCoveredSiftStone@CUSTOM:SandCoveredSiftStone",
+      "~SiftStone@CUSTOM:SiftStone"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~WispLogs@CUSTOM:WispLogs",
+      "~WispPlanks@CUSTOM:WispPlanks"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~Ichor@CUSTOM:Ichor"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.blubidle": "",
+      "item.legos_sift.blub_spawn_egg": "Blub Spawn Egg",
+      "entity.legos_sift.blub": "Blub",
+      "item.legos_sift.wisp_leaves": "Wisp Leaves",
+      "item.legos_sift.wisp_logs": "Wisp Logs",
+      "biome.legos_sift.singers_meadow": "Singer\u0027s Meadow",
+      "item.legos_sift.wisp_planks": "Wisp Logs",
+      "item.legos_sift.sift_stone": "Sift Stone",
+      "subtitles.singers_haven": "",
+      "subtitles.siftmusic": "",
+      "item.legos_sift.slabber_spawn_egg": "Slabber Spawn Egg",
+      "entity.legos_sift.slabber": "Slabber",
+      "subtitles.slabbersounds": "",
+      "item.legos_sift.light_sift_grass_block": "Light Sift Grass Block",
+      "item.legos_sift.dark_sift_grass_block": "Dark Sift Grass Block",
+      "item.legos_sift.sift_dirt": "Sift Dirt",
+      "subtitles.siftambient": "",
+      "item.legos_sift.nuzzle_spawn_egg": "Nuzzle Spawn Egg",
+      "entity.legos_sift.nuzzle": "Nuzzle",
+      "subtitles.nuzzlesounds": "",
+      "item.legos_sift.teal_sift_grass_block": "Teal Sift Grass Block",
+      "biome.legos_sift.green_sift_plains": "Green Sift Plains",
+      "item.legos_sift.pink_and_teal_grass_block": "Pink And Teal Grass Block",
+      "item.legos_sift.seedling_spawn_egg": "Seedling Spawn Egg",
+      "entity.legos_sift.seedling": "Seedling",
+      "subtitles.seedlingsounds": "",
+      "entity.legos_sift.sprout": "Sprout",
+      "item.legos_sift.sprout_spawn_egg": "Sprout Spawn Egg",
+      "subtitles.sproutsounds": "",
+      "item.legos_sift.ichor_bucket": "Ichor Bucket",
+      "fluid_type.legos_sift.ichor": "Ichor",
+      "fluid.legos_sift.ichor": "Ichor",
+      "block.legos_sift.ichor": "Ichor",
+      "item.legos_sift.sift_sand": "Sift Sand",
+      "item.legos_sift.sand_covered_sift_stone": "Sand Covered Sift Stone",
+      "biome.legos_sift.humbler_husklands": "Humbler Husklands"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/legossift/client/AnimatedEntityRenderers.java",
+      "src/main/java/net/mcreator/legossift/init/EntityAnimationFactory.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModFluidTypes.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModFluids.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModBlocks.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModItems.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModEntityRenderers.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModEntities.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/legos_sift/sounds.json",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModTabs.java",
+      "src/main/java/net/mcreator/legossift/LegosSiftMod.java",
+      "src/main/java/net/mcreator/legossift/init/LegosSiftModSounds.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "legos_sift",
+    "modName": "Lego\u0027s Sift",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.legossift"
+  },
+  "mcreatorVersion": 202600233518
+}

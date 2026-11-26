@@ -1,0 +1,46 @@
+{
+  "singeridle": {
+    "sounds": [
+      {
+        "name": "singerdemo:idle_2",
+        "stream": false
+      },
+      {
+        "name": "singerdemo:idle_1",
+        "stream": false
+      },
+      {
+        "name": "singerdemo:idle_0",
+        "stream": false
+      }
+    ]
+  },
+  "singerhurt": {
+    "sounds": [
+      {
+        "name": "singerdemo:hurt_3",
+        "stream": false
+      },
+      {
+        "name": "singerdemo:hurt_2",
+        "stream": false
+      },
+      {
+        "name": "singerdemo:hurt_1",
+        "stream": false
+      },
+      {
+        "name": "singerdemo:hurt_0",
+        "stream": false
+      }
+    ]
+  },
+  "singersing": {
+    "sounds": [
+      {
+        "name": "singerdemo:sing",
+        "stream": false
+      }
+    ]
+  }
+}

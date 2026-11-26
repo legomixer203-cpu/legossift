@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "legos_sift:sift_sand"
+    },
+    "state": {
+      "Name": "legos_sift:sand_covered_sift_stone"
+    },
+    "radius": {
+      "type": "uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    }
+  }
+}
