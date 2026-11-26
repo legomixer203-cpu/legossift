@@ -1,0 +1,30 @@
+name: Build Singer-integrated MCreator workspace ZIP
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package-workspace:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out integrated workspace
+        uses: actions/checkout@v4
+        with:
+          ref: singer-integration
+      - name: Create MCreator workspace ZIP
+        run: |
+          cd LegosSiftWorkspace_Extracted
+          zip -qr "$GITHUB_WORKSPACE/legos_sift_singer_workspace.zip" .
+      - name: Upload workspace ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: legos-sift-singer-mcreator-workspace
+          path: legos_sift_singer_workspace.zip
+          if-no-files-found: error
+          retention-days: 14
