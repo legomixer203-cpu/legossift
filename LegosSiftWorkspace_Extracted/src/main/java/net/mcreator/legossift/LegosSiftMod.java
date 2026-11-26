@@ -45,6 +45,7 @@ public class LegosSiftMod {
 
 	public LegosSiftMod(IEventBus modEventBus) {
 		// Start of user code block mod constructor
+		SingerSoundEvents.REGISTRY.register(modEventBus);
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);

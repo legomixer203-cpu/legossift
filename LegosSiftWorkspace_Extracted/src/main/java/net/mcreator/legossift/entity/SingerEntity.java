@@ -14,7 +14,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
-import net.mcreator.legossift.init.LegosSiftModSounds;
+import net.mcreator.legossift.init.SingerSoundEvents;
 import net.minecraft.resources.Identifier;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -125,12 +125,12 @@ public class SingerEntity extends PathfinderMob implements GeoEntity {
 
     @Override
     protected SoundEvent getHurtSound(DamageSource source) {
-        return LegosSiftModSounds.SINGERHURT.get();
+        return SingerSoundEvents.SINGERHURT.get();
     }
 
     @Override
     protected SoundEvent getDeathSound() {
-        return LegosSiftModSounds.SINGERHURT.get();
+        return SingerSoundEvents.SINGERHURT.get();
     }
 
     // =====================================================
